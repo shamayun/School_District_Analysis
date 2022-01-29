@@ -25,6 +25,7 @@ Previously, before substituting the 9th grade Math and Reading scores, THS avera
 •	Scores by school spending: Remain unchanged.
 ![Spending by Schools](https://github.com/shamayun/School_District_Analysis/blob/main/Resources/Spend%20Summary%20by%20Scores.png)
 
+
 •	Scores by school size: Remain unchanged.
 ![Scores by School Size](https://github.com/shamayun/School_District_Analysis/blob/main/Resources/School%20Size%20by%20Score.png)
 

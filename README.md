@@ -1,31 +1,33 @@
-# School_District_Analysis
-Analysis of School Data using Python &amp; Jupyter Notebook 
-Overview of the school district analysis:
+# School District Analysis
 
-The purpose of this analysis is well defined (3 pt).
+# School District Analysis
 
-Resources
+### Overview of the school district analysis:
 
-Results:
-Using bulleted lists and images of DataFrames as support, address the following questions.
+In this analysis, I assisted the school board to analyze results based on various key metrics to identify how each school has performed in Math, and Readings. Also, there were other detaild analysis of spend, budget per school, and how that may have impacted students, students' results. Unfortunately, there was evidence of academic dishonesty; reading and math grades for Thomas High School (THS). Specifically, THS ninth graders appear to have been altered. Although the school board unaware of the full degree of academic dishonesty, they want to uphold state-testing standards. As a result, I needed to use methods which will assist in obtaining results per state-testing standard yet provide the analysis for the rest of the schools in the board in many required metrics. In my analysis, I have replaced the math and reading scores for Thomas High School with NaNs(not available) while keeping the rest of the data intact to get the desired output.
 
-How is the district summary affected?
+### Resources
+Python, Jupyter Notebook, school and student data supplied in CSV format
 
-How is the school summary affected?
+### Results:
+Since I needed to substitute all Thomas High School (THS) 9th grade results with NaNs, this replacements in Math and Reading scores slightly impacted the overall results in the district. All average scores and passing percentages, in district level, dropped slightly.
+Previously, before substituting the 9th grade Math and Reading scores, THS average were 66.91% and 69.66% respectively. Correcting the average for Math and Reading scores to 93.18% and 97.13% changes the overall passing percent to 90.63%. While THS 9th graders exclusion made significant change by school level Math, Reading and Overall percentage, in the aggregate level the impacts were not noticeable for Scores by school spending, Scores by school size or Scores by school type. Afterall, total THS 9th graders were only 1.18% of all the students in the district. A summary of the impact is below for all 7 metrics:
 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+•	District summary: very little change, almost similar.
 
-How does replacing the ninth-grade scores affect the following:
+•	School summary: All school remains same, except THS. Math & Readings percentage have gone up significantly, so is the overall percentage.
 
-Math and reading scores by grade
+•	Thomas High School’s (THS) performance relative to the other schools: THS is now one of the top 5 schools. Before THS was in the bottom 5 pool. A well-deserved jump followed by a solid performance
 
-Scores by school spending
+•	Math and reading scores by grade: Remain unchanged for all school including THS, except grade 9 column shown with “nan”
 
-Scores by school size
+•	Scores by school spending: Remain unchanged.
 
-Scores by school type
+•	Scores by school size: Remain unchanged.
 
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
+•	Scores by school type: Remain unchanged.
 
-Summary:
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
+
+### Summary:
+Changes to THS 9th grade only impacted 4 of the metrics. In the school summary, THS reading Passing in Math, Reading and overall passing was changed significantly. Resulted a sharp change in school performance, from bottom 5 to 2nd ranked shcools. Also, there were no information was available in grade level summary, showing only NaN. All other metrics remained unchanged.
+
